@@ -3,10 +3,16 @@ html {
 }
 
 /* body elemanının arkaplan rengini #e79947, margin değerini 0 yapın. */
-
+body {
+    background-color: #e79947;
+    margin: 0;
+}
 
 /* h1 için yazı karakteri büyüklüğünü 60px yapın ve yazıyı ortalayın */
-
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
 
 /*
   nav etiketine verdiğin mainMenu classını oluştur ve şunları sağla
@@ -14,7 +20,11 @@ html {
   - iç boşluk değeri 10px olsun
   - yazı büyüklüğü 20px
 */
-
+.mainMenu{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
 
 /*
   Sayfadaki tüm paragraflar için;
@@ -23,24 +33,40 @@ html {
     - iç boşlukları 10px
     - satır yüksekliğini normalin 1.5 katı
     - dış boşluğu 0px yapın
-*/
+*/p{
+    font-size: 15px;
+    font-family: 'Arial';
+    padding: 10px;
+    line-height: 1.5;
+    margin: 0;
+}
 
 
 /* banner classına sahip elemanların kenarlarını 10px yuvarlatın ve genişliğini 750px yapın */
-
-/* 
+.banner {
+    border-radius: 10px;
+    width: 750px;
+}
+/*
   iletişim bölümündeki bilgiler için sıralı olmayan bir liste oluşturdun. Şimdi ona şu stilleri uygulayın:
     - üst alt dış boşluğu 0px, sol sağ dış boşluğu 10px olsun
     - satır yüksekliği 24px olsun
 */
+ul {
+    margin: 0px 10px;
+    line-height: 24px;
+}
 
-
+/*
+  Bu class için alttaki stil kurallarını ayarlayın;
+  - genişliği 750px
+  - margin değeri '60px auto 30px'
+  - arkaplan rengi beyaz
+  - padding değeri 50px olsun
+*/
 .container {
-  /*
-    Bu class için alttaki stil kurallarını ayarlayın;
-    - genişliği 750px
-    - margin değeri '60px auto 30px'
-    - arkaplan rengi beyaz
-    - padding değeri 50px olsun
-  */
+    width: 750px;
+    margin: 60px auto 30px;
+    background-color: white;
+    padding: 50px;
 }
