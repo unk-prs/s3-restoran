@@ -116,7 +116,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.166Z",
+                      "startTime": "2026-11-17T22:35:24.695Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -150,7 +150,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.326Z",
+                      "startTime": "2026-11-17T22:35:24.858Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -184,7 +184,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.350Z",
+                      "startTime": "2026-11-17T22:35:24.883Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -199,7 +199,7 @@
             },
             {
               "title": "main elementinde container class'ı var mı?",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -212,48 +212,18 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
+                      "status": "passed",
                       "duration": 4,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at /mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js:58:22",
-                        "location": {
-                          "file": "/mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js",
-                          "column": 22,
-                          "line": 58
-                        },
-                        "snippet": " \u001b[90m 56 |\u001b[39m   test(\u001b[32m\"main elementinde container class'ı var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m main \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"main.container\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m     expect(main)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js",
-                            "column": 22,
-                            "line": 58
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n\n \u001b[90m 56 |\u001b[39m   test(\u001b[32m\"main elementinde container class'ı var mı?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m main \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"main.container\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m     expect(main)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m   test(\u001b[32m\"restoran adı uygun bir başlık etiketi içinde mi?\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n\u001b[2m    at /mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js:58:22\u001b[22m"
-                        }
-                      ],
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.365Z",
+                      "startTime": "2026-11-17T22:35:24.900Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/mnt/wdblue/courses/code2work/s3-restoran/.test-results/tests-main-HTML-ve-CSS-Gör-a5322-e-container-class-ı-var-mı-/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js",
-                        "column": 22,
-                        "line": 58
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-01f54ef2f3769a1d8611",
@@ -274,15 +244,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 41,
+                      "duration": 8,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.792Z",
+                      "startTime": "2026-11-17T22:35:24.916Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -308,15 +278,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9,
+                      "duration": 4,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.960Z",
+                      "startTime": "2026-11-17T22:35:24.939Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -342,15 +312,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7,
+                      "duration": 8,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:32.982Z",
+                      "startTime": "2026-11-17T22:35:24.960Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -376,7 +346,7 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
                       "duration": 4,
@@ -384,7 +354,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.002Z",
+                      "startTime": "2026-11-17T22:35:24.982Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -410,15 +380,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18,
+                      "duration": 12,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.018Z",
+                      "startTime": "2026-11-17T22:35:25.003Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -444,15 +414,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4,
+                      "duration": 3,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.049Z",
+                      "startTime": "2026-11-17T22:35:25.025Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -478,15 +448,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 28,
+                      "duration": 24,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.068Z",
+                      "startTime": "2026-11-17T22:35:25.045Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -512,15 +482,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 15,
+                      "duration": 19,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.109Z",
+                      "startTime": "2026-11-17T22:35:25.079Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -546,15 +516,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 18,
+                      "duration": 14,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.136Z",
+                      "startTime": "2026-11-17T22:35:25.107Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -580,7 +550,7 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
                       "duration": 15,
@@ -588,7 +558,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.164Z",
+                      "startTime": "2026-11-17T22:35:25.132Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -614,15 +584,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 14,
+                      "duration": 19,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.190Z",
+                      "startTime": "2026-11-17T22:35:25.160Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -648,7 +618,7 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
                       "duration": 17,
@@ -656,7 +626,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.218Z",
+                      "startTime": "2026-11-17T22:35:25.187Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -671,7 +641,7 @@
             },
             {
               "title": ".container stil: width, margin, background-color, padding",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -682,49 +652,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 4,
-                      "error": {
-                        "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:370:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-                        "stack": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:370:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:7)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at /mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js:149:30",
-                        "location": {
-                          "file": "eval at evaluate (:370:30), <anonymous>",
-                          "column": 7,
-                          "line": 1
-                        }
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "eval at evaluate (:370:30), <anonymous>",
-                            "column": 7,
-                            "line": 1
-                          },
-                          "message": "Error: page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n\u001b[2m    at eval (eval at evaluate (:370:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:372:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at eval (eval at evaluate (:370:30), <anonymous>:1:7)\u001b[22m\n\u001b[2m    at UtilityScript.evaluate (<anonymous>:372:16)\u001b[22m\n\u001b[2m    at UtilityScript.<anonymous> (<anonymous>:1:44)\u001b[22m\n\u001b[2m    at /mnt/wdblue/courses/code2work/s3-restoran/tests/main.spec.js:149:30\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 15,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T22:32:33.244Z",
+                      "startTime": "2026-11-17T22:35:25.214Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/mnt/wdblue/courses/code2work/s3-restoran/.test-results/tests-main-HTML-ve-CSS-Gör-8eebd-in-background-color-padding/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "eval at evaluate (:370:30), <anonymous>",
-                        "column": 7,
-                        "line": 1
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "45e6f71b65db145e0a88-a0ff4e4a42937c324147",
@@ -739,11 +680,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-17T22:32:31.774Z",
-    "duration": 1924.862,
-    "expected": 15,
+    "startTime": "2026-11-17T22:35:24.298Z",
+    "duration": 1381.1899999999998,
+    "expected": 17,
     "skipped": 0,
-    "unexpected": 2,
+    "unexpected": 0,
     "flaky": 0
   }
 }
